@@ -1,0 +1,43 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+button {
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#content-section {
+    margin-bottom: 30px;
+    transition: all 0.3s ease;
+}
+
+#dynamic-element-section {
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+}
